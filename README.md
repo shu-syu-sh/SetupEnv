@@ -19,3 +19,9 @@ $ vim bash_profile
 export PATH=$PATH:~/libs/adb-peco/bin
 alias adb='adbp'
 ```
+
+## Install Hub
+
+```
+$ brew install hub
+```
