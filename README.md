@@ -15,7 +15,7 @@ https://github.com/tomorrowkey/adb-peco
 ```
 $ cd ~/libs
 $ git clone git@github.com:tomorrowkey/adb-peco.git
-$ vim bash_profile
+$ vim ~/.bash_profile
 export PATH=$PATH:~/libs/adb-peco/bin
 alias adb='adbp'
 ```
@@ -24,4 +24,6 @@ alias adb='adbp'
 
 ```
 $ brew install hub
+$ vim ~/.bash_profile
+eval "$(hub alias -s)"
 ```
